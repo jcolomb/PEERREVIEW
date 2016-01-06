@@ -1,0 +1,45 @@
+---
+title: "1st meeting preparation"
+author: "julien"
+date: "6 Jan 2016"
+output: pdf_document
+---
+
+Ideas
+========
+
+Goal not to complaiin, but to build the best peer review system possible.
+
+Prospositions:
+
+1. Independent of manuscript depositions 
+    - Pre- and Post- publication review possible 
+    - Focus on one problem: peer review
+    - No need of new manuscript in the system to start (all DOI objects are peer-reviewable directly)
+    
+2. We deal first with the ideal system, we will determine the way to go there later
+    - We do not care about scientist's habit
+    - We do not think about business models
+    - We do not look at what exists
+
+3. List of problems
+    - Expensive
+    - Slow
+    - binary 
+    - not verifiable because closed
+    - biased (institution, gender,...)
+    
+4. Goal of peer review    
+    - constructive to improve text/interpretation quality
+    - check for appropriate methodology
+    - check factual accuracy
+    - correct spelling/grammar
+    - set novelty and importance ?
+    - detect fraud?
+    
+
+Participants
+============
+
+Notes
+=====
