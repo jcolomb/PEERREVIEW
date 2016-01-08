@@ -1,8 +1,8 @@
 ---
 title: "1st meeting preparation"
-author: "julien"
+author: "Julien"
 date: "6 Jan 2016"
-output: pdf_document
+output: html_document
 ---
 
 Ideas
@@ -22,14 +22,9 @@ Prospositions:
     - We do not think about business models
     - We do not look at what exists
 
-3. List of problems
-    - Expensive
-    - Slow
-    - binary 
-    - not verifiable because closed
-    - biased (institution, gender,...)
+
     
-4. Goal of peer review    
+3. Goal of peer review    
     - constructive to improve text/interpretation quality
     - check for appropriate methodology
     - check factual accuracy
@@ -38,8 +33,65 @@ Prospositions:
     - detect fraud?
     
 
+~~4. List of problems
+    - Expensive
+    - Slow
+    - binary 
+    - not verifiable because closed
+    - biased (institution, gender,...)~~    
+
 Participants
 ============
 
+not checked who was there
+```{r, echo=F}
+library(pander)
+b=read.csv("participants.csv", sep=";")
+b[is.na(b)]<-""
+pander (b)
+
+```
+
+
+
 Notes
 =====
+
+Long and lively discussion and a nice and working atmosphere. Most of us were passionate about the topic and came for building something.
+summary
+-------
+After an introduction by Dr. Colomb about the goal of the event (see above), we went on fruitful, unmoderated discussion about the "ideal peer review system". One of the idea coming from that discussion is that we may think about a system to review grants before they are sent to the grant agencies: authors and editors would have different (more honorable) motivation in this perspective. Once we draw the ideal system for this review system, we can go on and see if it is applicable to replace the present peer-review system (or if it has to be tweaked somehow). Then we looked into more details about the motivation of the three stakeholders: authors, reviewers and editors (one single person may have the 3 roles in different situations).
+
+2 parts of peer-review
+----------------
+After some discussion, we separated the peer review process into 2 entities: One more objective part:
+- Field specific requirement achieved?
+- Reproducibility of the data analysis
+- Reproducibility of the data
+- Is the idea flow and the language used comprehensible
+
+and one more subjective:
+- Result importance and novelty
+- Novely of the method used,...
+- What is the paper audience, can the text be better to 
+
+With the idea that some of these steps may be automatized using text mining as a data source and producing a checkboard for the paper (check for plagiarism, check for field specific requirements, check for novelty maybe too).
+
+Reviewer quality
+----------------
+
+There is little training for reviewers, and no consensus about how a review should look like. Checklist appear to be useful (both to be faster and more accurate in the review). One needs both critics and positive comments.
+
+One could differentiate between comments and reviews, depending on the quality of the reviewer. This may be also more complexe than this binary scale.
+
+The problem with comments from the crowd (reserchgate, stack exchange) is the noise produced by bad quality reviews. crowd giving reviewers credit is also not working well, since answer to easy questions are giving more credit than answers to difficult ones.
+
+What should be reviewed
+----------------
+
+We had interesting discussion on reviewing grants as well as experiment methodology before it is used, additionally scientific manuscripts should be reviewed pre- and post-publication. Indeed, the "publication" step (quality stamp through publication) should disappear for a more flexible paper quality ranking (some possible stamps: good for reviews, peer reviewed for methodolgy, peer reviewed for interpretation, replicated,..)
+
+OPEN?
+-----
+
+We did not discuss much about questions like: does it need to be done blind, double blind, in the open?
