@@ -2,13 +2,15 @@
 title: "1st meeting preparation"
 author: "Julien"
 date: "6 Jan 2016"
-output: html_document
+output:
+  html_document:
+    toc: yes
 ---
 
-Ideas
+My Ideas before the meeting
 ========
 
-Goal not to complaiin, but to build the best peer review system possible.
+Our goal here is not to complain, but to build the best peer review system possible.
 
 Prospositions:
 
@@ -33,17 +35,10 @@ Prospositions:
     - detect fraud?
     
 
-~~4. List of problems
-    - Expensive
-    - Slow
-    - binary 
-    - not verifiable because closed
-    - biased (institution, gender,...)~~    
-
 Participants
 ============
 
-not checked who was there
+these people show interest, we were about 12 people in the meeting.
 ```{r, echo=F}
 library(pander)
 b=read.csv("participants.csv", sep=";")
@@ -58,7 +53,8 @@ Notes
 =====
 
 Long and lively discussion and a nice and working atmosphere. Most of us were passionate about the topic and came for building something.
-summary
+
+Summary
 -------
 After an introduction by Dr. Colomb about the goal of the event (see above), we went on fruitful, unmoderated discussion about the "ideal peer review system". One of the idea coming from that discussion is that we may think about a system to review grants before they are sent to the grant agencies: authors and editors would have different (more honorable) motivation in this perspective. Once we draw the ideal system for this review system, we can go on and see if it is applicable to replace the present peer-review system (or if it has to be tweaked somehow). Then we looked into more details about the motivation of the three stakeholders: authors, reviewers and editors (one single person may have the 3 roles in different situations).
 
@@ -95,3 +91,46 @@ OPEN?
 -----
 
 We did not discuss much about questions like: does it need to be done blind, double blind, in the open?
+
+Stakeholders motivation
+=====================
+
+We focus this to the situation of a grant send for pre-review, before the grant is actually sent to the grant agencies, in order to get the largest pannel of positive motivation.
+
+Authors expectations
+-------
+
+    Get a rapid feedback to get a better, quality approved study
+    
+ system:
+1. Quick
+2. Short feedback (no "noise" feedback)
+3. Review from the targeted audience (here putative grant reviewers)
+4. Direct communication with reviewers
+Review:
+5. ameliorate methodology
+6. ameliorate text 
+7. get a greater audience (=more citation)
+8. Stamp of approval
+
+
+Reviewers expectations
+------
+
+    Invest minimal work for a maximal credit
+    
+1. GET CREDIT
+2. Review only review-ready manuscript
+3. Helping tools to be faster (checklist, automation)
+4. Easy to join
+
+Editors expectations
+-----
+
+    Will the study be read/cited?
+    
+1. Quality check
+2. Get an ideas on study audience 
+3. Get an idea on study importance
+
+    
