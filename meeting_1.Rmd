@@ -90,12 +90,16 @@ We had interesting discussion on reviewing grants as well as experiment methodol
 OPEN?
 -----
 
-We did not discuss much about questions like: does it need to be done blind, double blind, in the open?
+We did not discuss much about questions like: does it need to be done blind, double blind, in the open? Some thinks the system should not be open:
+
+    The real time process of the review should not be open or even open to comments. There should be the room of privacy and security between editors-authors-reviewers while under review.
 
 Stakeholders motivation
 =====================
 
 We focus this to the situation of a grant send for pre-review, before the grant is actually sent to the grant agencies, in order to get the largest pannel of positive motivation.
+
+Rene Bernard does not agree with this proposition, arguing that "none of us really has experience as grant reviewers and very little as grant applicant. We should focus of the paper review first and maybe later see which elements we came up with apply to grants."
 
 Authors expectations
 -------
@@ -113,6 +117,7 @@ Review:
 7. get a greater audience (=more citation)
 8. Stamp of approval
 
+**5 and 6 mostly implicate the riviewer must be comptent.**
 
 Reviewers expectations
 ------
@@ -133,4 +138,6 @@ Editors expectations
 2. Get an ideas on study audience 
 3. Get an idea on study importance
 
-    
+Additional Comments and feedback
+========
+Rene Bernard made some comments integrated in the notes, in addition, we would need inputs from professional editors for the next meeting.
