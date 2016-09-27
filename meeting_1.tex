@@ -1,0 +1,454 @@
+\documentclass[]{article}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+\else % if luatex or xelatex
+  \ifxetex
+    \usepackage{mathspec}
+    \usepackage{xltxtra,xunicode}
+  \else
+    \usepackage{fontspec}
+  \fi
+  \defaultfontfeatures{Mapping=tex-text,Scale=MatchLowercase}
+  \newcommand{\euro}{€}
+\fi
+% use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+% use microtype if available
+\IfFileExists{microtype.sty}{%
+\usepackage{microtype}
+\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\usepackage[margin=1in]{geometry}
+\usepackage{longtable,booktabs}
+\ifxetex
+  \usepackage[setpagesize=false, % page size defined by xetex
+              unicode=false, % unicode breaks when used with xetex
+              xetex]{hyperref}
+\else
+  \usepackage[unicode=true]{hyperref}
+\fi
+\hypersetup{breaklinks=true,
+            bookmarks=true,
+            pdfauthor={Julien},
+            pdftitle={1st meeting preparation},
+            colorlinks=true,
+            citecolor=blue,
+            urlcolor=blue,
+            linkcolor=magenta,
+            pdfborder={0 0 0}}
+\urlstyle{same}  % don't use monospace font for urls
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\setcounter{secnumdepth}{0}
+
+%%% Use protect on footnotes to avoid problems with footnotes in titles
+\let\rmarkdownfootnote\footnote%
+\def\footnote{\protect\rmarkdownfootnote}
+
+%%% Change title format to be more compact
+\usepackage{titling}
+
+% Create subtitle command for use in maketitle
+\newcommand{\subtitle}[1]{
+  \posttitle{
+    \begin{center}\large#1\end{center}
+    }
+}
+
+\setlength{\droptitle}{-2em}
+  \title{1st meeting preparation}
+  \pretitle{\vspace{\droptitle}\centering\huge}
+  \posttitle{\par}
+  \author{Julien}
+  \preauthor{\centering\large\emph}
+  \postauthor{\par}
+  \predate{\centering\large\emph}
+  \postdate{\par}
+  \date{6 Jan 2016}
+
+
+
+\begin{document}
+
+\maketitle
+
+
+{
+\hypersetup{linkcolor=black}
+\setcounter{tocdepth}{2}
+\tableofcontents
+}
+\section{My Ideas before the meeting}\label{my-ideas-before-the-meeting}
+
+Our goal here is not to complain, but to build the best peer review
+system possible.
+
+Prospositions:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\itemsep1pt\parskip0pt\parsep0pt
+\item
+  Independent of manuscript depositions
+
+  \begin{itemize}
+  \itemsep1pt\parskip0pt\parsep0pt
+  \item
+    Pre- and Post- publication review possible
+  \item
+    Focus on one problem: peer review
+  \item
+    No need of new manuscript in the system to start (all DOI objects
+    are peer-reviewable directly)
+  \end{itemize}
+\item
+  We deal first with the ideal system, we will determine the way to go
+  there later
+
+  \begin{itemize}
+  \itemsep1pt\parskip0pt\parsep0pt
+  \item
+    We do not care about scientist's habit
+  \item
+    We do not think about business models
+  \item
+    We do not look at what exists
+  \end{itemize}
+\item
+  Goal of peer review
+
+  \begin{itemize}
+  \itemsep1pt\parskip0pt\parsep0pt
+  \item
+    constructive to improve text/interpretation quality
+  \item
+    check for appropriate methodology
+  \item
+    check factual accuracy
+  \item
+    correct spelling/grammar
+  \item
+    set novelty and importance ?
+  \item
+    detect fraud?
+  \end{itemize}
+\end{enumerate}
+
+\section{Participants}\label{participants}
+
+these people show interest, we were about 12 people in the meeting.
+
+\begin{longtable}[c]{@{}ccc@{}}
+\toprule
+\begin{minipage}[b]{0.24\columnwidth}\centering\strut
+Name
+\strut\end{minipage} &
+\begin{minipage}[b]{0.13\columnwidth}\centering\strut
+ID
+\strut\end{minipage} &
+\begin{minipage}[b]{0.13\columnwidth}\centering\strut
+remarks
+\strut\end{minipage}\tabularnewline
+\midrule
+\endhead
+\begin{minipage}[t]{0.24\columnwidth}\centering\strut
+Alejandro
+\strut\end{minipage} &
+\begin{minipage}[t]{0.13\columnwidth}\centering\strut
+185600134
+\strut\end{minipage} &
+\begin{minipage}[t]{0.13\columnwidth}\centering\strut
+\strut\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.24\columnwidth}\centering\strut
+Alia
+\strut\end{minipage} &
+\begin{minipage}[t]{0.13\columnwidth}\centering\strut
+128940562
+\strut\end{minipage} &
+\begin{minipage}[t]{0.13\columnwidth}\centering\strut
+\strut\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.24\columnwidth}\centering\strut
+Andreas
+\strut\end{minipage} &
+\begin{minipage}[t]{0.13\columnwidth}\centering\strut
+68839072
+\strut\end{minipage} &
+\begin{minipage}[t]{0.13\columnwidth}\centering\strut
+\strut\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.24\columnwidth}\centering\strut
+Cherian Mathew
+\strut\end{minipage} &
+\begin{minipage}[t]{0.13\columnwidth}\centering\strut
+1.03e+08
+\strut\end{minipage} &
+\begin{minipage}[t]{0.13\columnwidth}\centering\strut
+\strut\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.24\columnwidth}\centering\strut
+Felix Evert
+\strut\end{minipage} &
+\begin{minipage}[t]{0.13\columnwidth}\centering\strut
+182591233
+\strut\end{minipage} &
+\begin{minipage}[t]{0.13\columnwidth}\centering\strut
+\strut\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.24\columnwidth}\centering\strut
+HeinrichMeet
+\strut\end{minipage} &
+\begin{minipage}[t]{0.13\columnwidth}\centering\strut
+162142672
+\strut\end{minipage} &
+\begin{minipage}[t]{0.13\columnwidth}\centering\strut
+\strut\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.24\columnwidth}\centering\strut
+Hugo Martins
+\strut\end{minipage} &
+\begin{minipage}[t]{0.13\columnwidth}\centering\strut
+191388647
+\strut\end{minipage} &
+\begin{minipage}[t]{0.13\columnwidth}\centering\strut
+\strut\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.24\columnwidth}\centering\strut
+Jon Tennant
+\strut\end{minipage} &
+\begin{minipage}[t]{0.13\columnwidth}\centering\strut
+43623952
+\strut\end{minipage} &
+\begin{minipage}[t]{0.13\columnwidth}\centering\strut
+\strut\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.24\columnwidth}\centering\strut
+Juan-Andres
+\strut\end{minipage} &
+\begin{minipage}[t]{0.13\columnwidth}\centering\strut
+12305095
+\strut\end{minipage} &
+\begin{minipage}[t]{0.13\columnwidth}\centering\strut
+\strut\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.24\columnwidth}\centering\strut
+Julien Colomb
+\strut\end{minipage} &
+\begin{minipage}[t]{0.13\columnwidth}\centering\strut
+44407932
+\strut\end{minipage} &
+\begin{minipage}[t]{0.13\columnwidth}\centering\strut
+\strut\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.24\columnwidth}\centering\strut
+Michal Kupper
+\strut\end{minipage} &
+\begin{minipage}[t]{0.13\columnwidth}\centering\strut
+13408197
+\strut\end{minipage} &
+\begin{minipage}[t]{0.13\columnwidth}\centering\strut
+\strut\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.24\columnwidth}\centering\strut
+Pedro Silva
+\strut\end{minipage} &
+\begin{minipage}[t]{0.13\columnwidth}\centering\strut
+185479611
+\strut\end{minipage} &
+\begin{minipage}[t]{0.13\columnwidth}\centering\strut
+\strut\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.24\columnwidth}\centering\strut
+Rene Bernard
+\strut\end{minipage} &
+\begin{minipage}[t]{0.13\columnwidth}\centering\strut
+196779776
+\strut\end{minipage} &
+\begin{minipage}[t]{0.13\columnwidth}\centering\strut
+\strut\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.24\columnwidth}\centering\strut
+Stephanie Dawson
+\strut\end{minipage} &
+\begin{minipage}[t]{0.13\columnwidth}\centering\strut
+176067272
+\strut\end{minipage} &
+\begin{minipage}[t]{0.13\columnwidth}\centering\strut
+\strut\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.24\columnwidth}\centering\strut
+Stephen Cunningham
+\strut\end{minipage} &
+\begin{minipage}[t]{0.13\columnwidth}\centering\strut
+190770196
+\strut\end{minipage} &
+\begin{minipage}[t]{0.13\columnwidth}\centering\strut
+\strut\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.24\columnwidth}\centering\strut
+Teresa
+\strut\end{minipage} &
+\begin{minipage}[t]{0.13\columnwidth}\centering\strut
+55191922
+\strut\end{minipage} &
+\begin{minipage}[t]{0.13\columnwidth}\centering\strut
+\strut\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.24\columnwidth}\centering\strut
+Vladislav
+\strut\end{minipage} &
+\begin{minipage}[t]{0.13\columnwidth}\centering\strut
+191217387
+\strut\end{minipage} &
+\begin{minipage}[t]{0.13\columnwidth}\centering\strut
+\strut\end{minipage}\tabularnewline
+\bottomrule
+\end{longtable}
+
+\section{Notes}\label{notes}
+
+Long and lively discussion and a nice and working atmosphere. Most of us
+were passionate about the topic and came for building something.
+
+\subsection{Summary}\label{summary}
+
+After an introduction by Dr.~Colomb about the goal of the event (see
+above), we went on fruitful, unmoderated discussion about the ``ideal
+peer review system''. One of the idea coming from that discussion is
+that we may think about a system to review grants before they are sent
+to the grant agencies: authors and editors would have different (more
+honorable) motivation in this perspective. Once we draw the ideal system
+for this review system, we can go on and see if it is applicable to
+replace the present peer-review system (or if it has to be tweaked
+somehow). Then we looked into more details about the motivation of the
+three stakeholders: authors, reviewers and editors (one single person
+may have the 3 roles in different situations).
+
+\subsection{2 parts of peer-review}\label{parts-of-peer-review}
+
+After some discussion, we separated the peer review process into 2
+entities: One more objective part: - Field specific requirement
+achieved? - Reproducibility of the data analysis - Reproducibility of
+the data - Is the idea flow and the language used comprehensible
+
+and one more subjective: - Result importance and novelty - Novely of the
+method used,\ldots{} - What is the paper audience, can the text be
+better to
+
+With the idea that some of these steps may be automatized using text
+mining as a data source and producing a checkboard for the paper (check
+for plagiarism, check for field specific requirements, check for novelty
+maybe too).
+
+\subsection{Reviewer quality}\label{reviewer-quality}
+
+There is little training for reviewers, and no consensus about how a
+review should look like. Checklist appear to be useful (both to be
+faster and more accurate in the review). One needs both critics and
+positive comments.
+
+One could differentiate between comments and reviews, depending on the
+quality of the reviewer. This may be also more complexe than this binary
+scale.
+
+The problem with comments from the crowd (reserchgate, stack exchange)
+is the noise produced by bad quality reviews. crowd giving reviewers
+credit is also not working well, since answer to easy questions are
+giving more credit than answers to difficult ones.
+
+\subsection{What should be reviewed}\label{what-should-be-reviewed}
+
+We had interesting discussion on reviewing grants as well as experiment
+methodology before it is used, additionally scientific manuscripts
+should be reviewed pre- and post-publication. Indeed, the
+``publication'' step (quality stamp through publication) should
+disappear for a more flexible paper quality ranking (some possible
+stamps: good for reviews, peer reviewed for methodolgy, peer reviewed
+for interpretation, replicated,..)
+
+\subsection{OPEN?}\label{open}
+
+We did not discuss much about questions like: does it need to be done
+blind, double blind, in the open? Some thinks the system should not be
+open:
+
+\begin{verbatim}
+The real time process of the review should not be open or even open to comments. There should be the room of privacy and security between editors-authors-reviewers while under review.
+\end{verbatim}
+
+\section{Stakeholders motivation}\label{stakeholders-motivation}
+
+We focus this to the situation of a grant send for pre-review, before
+the grant is actually sent to the grant agencies, in order to get the
+largest pannel of positive motivation.
+
+Rene Bernard does not agree with this proposition, arguing that ``none
+of us really has experience as grant reviewers and very little as grant
+applicant. We should focus of the paper review first and maybe later see
+which elements we came up with apply to grants.''
+
+\subsection{Authors expectations}\label{authors-expectations}
+
+\begin{verbatim}
+Get a rapid feedback to get a better, quality approved study
+\end{verbatim}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\itemsep1pt\parskip0pt\parsep0pt
+\item
+  Quick
+\item
+  Short feedback (no ``noise'' feedback)
+\item
+  Review from the targeted audience (here putative grant reviewers)
+\item
+  Direct communication with reviewers
+\item
+  ameliorate methodology
+\item
+  ameliorate text
+\item
+  get a greater audience (=more citation)
+\item
+  Stamp of approval
+\end{enumerate}
+
+( 1-4 system, 5-8: review)
+
+\textbf{5 and 6 mostly implicate the riviewer must be comptent.}
+
+\subsection{Reviewers expectations}\label{reviewers-expectations}
+
+\begin{verbatim}
+Invest minimal work for a maximal credit
+\end{verbatim}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\itemsep1pt\parskip0pt\parsep0pt
+\item
+  GET CREDIT
+\item
+  Review only review-ready manuscript
+\item
+  Helping tools to be faster (checklist, automation)
+\item
+  Easy to join
+\end{enumerate}
+
+\subsection{Editors expectations}\label{editors-expectations}
+
+\begin{verbatim}
+Will the study be read/cited?
+\end{verbatim}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\itemsep1pt\parskip0pt\parsep0pt
+\item
+  Quality check
+\item
+  Get an ideas on study audience
+\item
+  Get an idea on study importance
+\end{enumerate}
+
+\section{Additional Comments and
+feedback}\label{additional-comments-and-feedback}
+
+Rene Bernard made some comments integrated in the notes, in addition, we
+would need inputs from professional editors for the next meeting.
+
+\end{document}

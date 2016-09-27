@@ -1,0 +1,51 @@
+---
+title: "After peer review week "
+author: "Julien"
+date: "27 Sept 2016"
+output:
+  pdf_document:
+    toc: yes
+    keep_tex: yes
+  html_document:
+    toc: yes
+---
+
+# Presentation by Stephanie Dawson
+
+This was the second edition of the peer review week. Unlike last year, this edition was well prepared, and organisers had a more positive thinking (they were not afraid to get feedback like "peer review is crap"). However, this was mostly used as a marketing campaign by publishers and there was very little inputs from scientists.
+
+While papers are taken down to smaller pieces with the arrival of new types of journals, the requirement for expert reviewers is growing. The system will fall apart soon, since there is no incentive for scientists to do peer review.
+
+# Further discussion (personal choice)
+
+## How to get reviewers
+
+- Automatize some of the peer review process (Vladi said that some of it exists already by checking for p-hacking).
+
+- Get reward/credit (Publons)
+
+- Uberization not possible? One needs trustworthy reviews from expert, quantity cannot replace quality. Especially since quantity measure are easily gamed.
+
+- Include peer review in the student curriculum (they would learn to write and provide peer reviews).
+
+## post publication peer review
+
+The campaign of scienceopen to get PPPR was very ineffective. The problem seems to be the inbalance between the amount of work needed and the reward. Although the present system (pre-publication peer review) has even less incentive (!).
+
+# My comments
+
+From the discussion, it is clear that most people are unhappy with the current system but no one can give real solutions. Systems like stakeoverflow are not fitted for peer review.
+
+## Separate the peer review from the editorial decisions. 
+
+The fact that peer review is both trying to ameliorate the paper and give a decision about its quality is giving wrong incentive to the scientists. If decision to publish was taken independently of the peer review itself, scientists will be more honest and conflicts of interests would be lifted. The peer review would be more a scientific discussion on the paper, which would start before publication but would not end with it (some proposition would be taken to write the next grant for instance).
+
+This explains also why F1000 PPPR is successful: only positive reviews are given there. Indeed peer review is associated with criticism which is associated with negative comments. This shall be changed: one needs to bring the positive part of peer review in front. 
+
+## Outside of science
+
+The problem with PPPR and preprints (and the current system with some journals) is that people who do not have the expertise to decide of the quality of the work (journalists, scientists from other fields) will access the text, without realising it was not properly peer reviewed/aknowledge. In its mutation, the system should find a solution to this (BIG labels/disclaimers, restrict access before reviews are done,...). 
+
+## Conclusion
+
+Peer review needs to be restructured. While someone said in the meeting that it has to be through small steps, one at a time, I wonder if a disruptive function would not be a better way to go?

@@ -3,6 +3,9 @@ title: "1st meeting preparation"
 author: "Julien"
 date: "6 Jan 2016"
 output:
+  pdf_document:
+    toc: yes
+    keep_tex: yes
   html_document:
     toc: yes
 ---
@@ -106,16 +109,18 @@ Authors expectations
 
     Get a rapid feedback to get a better, quality approved study
     
- system:
+
+ 
 1. Quick
 2. Short feedback (no "noise" feedback)
 3. Review from the targeted audience (here putative grant reviewers)
 4. Direct communication with reviewers
-Review:
 5. ameliorate methodology
 6. ameliorate text 
 7. get a greater audience (=more citation)
 8. Stamp of approval
+
+( 1-4 system, 5-8: review)
 
 **5 and 6 mostly implicate the riviewer must be comptent.**
 
