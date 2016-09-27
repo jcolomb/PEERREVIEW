@@ -38,7 +38,7 @@ Maybe breaking the peer review proces into smaller milestones (reviewing just a 
 
 # My comments
 
-From the discussion, it is clear that most people are unhappy with the current system but no one can give real solutions. Systems like stakeoverflow are not fitted for peer review. But on the other hand the reputation system proposed on stackoverflow, which is very complex and accurate (it's hard to play it) could probably be used for validating researcher's expertise levels (at least his expertise in the peer review abilities). 
+From the discussion, it is clear that most people are unhappy with the current system but no one can give real solutions. Systems like stackoverflow are not fitted for peer review. But on the other hand the reputation system proposed on stackoverflow, which is very complex and accurate (it's hard to game it) could probably be used for validating researcher's expertise levels (at least his expertise in the peer review abilities). 
 
 ## Separate the peer review from the editorial decisions. 
 
